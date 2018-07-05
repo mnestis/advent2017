@@ -1,3 +1,7 @@
 
+# No input.txt files
+input.txt
+
+
 # No python byte-code
 *.pyc
