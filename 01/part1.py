@@ -7,7 +7,6 @@ def read_input(input_location):
 def calculate_captcha(input_data):
     pairs = list(zip(input_data[:-1], input_data[1:])) + [(input_data[0], input_data[-1])]
 
-    print(pairs)
     return sum([(int(pair[0]) if pair[0] == pair[1] else 0) for pair in pairs])
 
 
