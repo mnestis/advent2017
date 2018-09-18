@@ -6,3 +6,4 @@ input.txt
 # No python byte-code
 *.pyc
 .__pycache__
+.vscode/
