@@ -50,7 +50,7 @@ def calculate_shortest_distance(path_list):
             continue
         if moves["se"] and moves["sw"]:
             moves["se"] -= 1
-            moves["se"] -= 1
+            moves["sw"] -= 1
             moves["s"] += 1
             continue
 
